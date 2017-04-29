@@ -1,0 +1,180 @@
+
+* {
+	margin:0;
+	padding:0;
+	cursor: url(./css/blank.cur), none;
+}
+
+html,body{
+	position: relative;
+	overflow: hidden;
+	max-height: 100%;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+}
+
+.panel-upload {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 999;
+}
+
+.dg.main {
+	display: none;
+}
+
+.name {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	-webkit-transform: translateY( -50% );
+	transform: translateY( -50% );
+	text-align: center;
+	font: normal 80px Arial;
+	color: #fff;
+}
+
+.name-letter {
+	position: relative;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+
+.name-space {
+	width: 24px;
+}
+
+.ui-start {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	margin-top: -250px;
+	margin-left: -250px;
+	background-color: #fff;
+	box-shadow: 10px 10px 6px 30px rgba(0, 0, 0, 0.25);
+}
+
+.ui-start .bg {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	background-color: #367157;
+	left: 0%;
+	top: 0%;
+	/*-webkit-transform: translate3d( -50%, -50%, 0 );
+	transform: translate3d( -50%, -50%, 0 );*/
+}
+
+.ui-start .bg-square {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate3d( -50%, -50%, 0 );
+	transform: translate3d( -50%, -50%, 0 );
+	background-color: #143728;
+}
+
+.bg-square2 {
+	position: absolute;
+	background-color: #222;
+	width: 50%;
+	height: 50%;
+	top: 0;
+	left: 0;
+}
+.bg-square3 {
+	position: absolute;
+	background-color: #a50d0d;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+}
+
+.ui-bg {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background-color: #a90000;
+}
+
+.ui-start {
+	font-family: 'Kumar One', cursive;
+	color: #fff;
+	text-align: center;
+}
+
+.ui-start .title {
+	position: relative;
+	margin-top: 14%;
+	font-size: 80px;
+	letter-spacing: 13px;
+	color: #b7ead4;
+	z-index: 1;
+}
+
+.ui-start .desc {
+	position: relative;
+	font-family: 'Space Mono', monospace;
+	padding: 0% 20% 10% 20%;
+	opacity: .75;
+	font-size: 14px;
+	z-index: 1;
+}
+
+.ui-start .desc strong {
+	position: relative;
+	display: inline-block;
+	font-family: 'Kumar One', cursive;
+	padding: 10% 20%;
+	letter-spacing: 10px;
+	z-index: 1;
+}
+
+.start {
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	background-color: #ef1717;
+	bottom: -5%;
+	right: -5%;
+	box-shadow: 10px 10px 6px 30px rgba(0, 0, 0, 0.1);
+	font-family: 'Kumar One', cursive;
+	color: #fff;
+	text-decoration: none;
+	opacity: 0;
+}
+
+.start span {
+	position: relative;
+	top: 50px;
+}
+
+.start:hover {
+	background-color: #2ceb00;
+}
+
+.credits {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	color: #fff;
+	font-size: 10px;
+}
+
+.credits a {
+	font-family: 'Kumar One', cursive;
+	text-transform: uppercase;
+	color: #ff5757;
+	font-size: 12px;
+}
